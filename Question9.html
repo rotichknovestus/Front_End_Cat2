@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky sidebar </title>
+    <style>
+        header{
+    background-color: #336699;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+nav{
+    background-color: gray;
+
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+nav li{
+    margin: 0 20px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+a:hover {
+    background-color: #f6e5e5;
+    color:#336699;
+    padding: 4px;
+  }
+  #sidebar{
+    background-color: gray;
+    padding: 5px;
+    max-width: 10%;
+    position: sticky;
+}
+#sidebar li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+#sidebar ul {
+    list-style: none;
+    padding: 10px;
+}
+#sidebar li {
+  margin-bottom: 10px;
+  
+}
+#sidebar a {
+    text-decoration: none;
+    color: #336699;
+    font-weight: bold;
+    
+  }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcme to My Web Page</h1>
+     </header>
+     <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Topics</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Map</a></li>
+        </ul>
+     </nav>
+     <div>
+        <aside id="sidebar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Topics</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Map</a></li>
+            </ul>
+        </aside>
+     </div>
+     
+    
+    
+</body>
+</html>
